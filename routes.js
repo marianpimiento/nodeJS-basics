@@ -39,3 +39,16 @@ const requestHandler = (req, res) => {
 };
 
 module.exports = requestHandler;
+
+// Another ways to export multiple elements
+
+// module.exports = {
+//     handler: requestHandler,
+//     someText: 'Some hard coded text'
+// };
+
+// module.exports.handler = requestHandler;
+// module.exports.someText = 'Some text';
+
+// exports.handler = requestHandler;
+// exports.someText = 'Some hard coded text';
